@@ -1,0 +1,76 @@
+
+
+
+body{
+	margin:50px 0 50px 0;
+	cursor:default;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size:12pt;
+	color:#555555;
+	}
+
+
+a{
+	color: #555555;
+	text-decoration: underline;
+	}
+a:hover{
+	color: #555555;
+	text-decoration: underline;
+	}
+
+table.tbl td{
+	padding:10px;
+	}
+
+table.tbl td.fieldtag{
+	width:240px;
+	text-align:right;
+	padding-right:35px;
+	}
+
+table.tbl td.groupheader{
+	background-color:#000000;
+	color:#ffffff;
+	font-weight:bold;
+	font-size:13pt;
+	}
+
+table.tbl tr{
+	height:60px;
+	}
+
+table.tbl tr.markupfield:hover{
+	background-color:#FFFFBA;
+	}
+
+table.tbl form{
+	margin:30px;
+	}
+
+table.tbl input{
+	border:1px solid #555555;
+	}
+
+table.tbl select{
+	margin:0;
+	padding:1px;
+	cursor:pointer;
+	border-color:#555555;
+	}
+
+table.tbl span.eg{
+	display:block;
+	font-size:8pt;
+	font-family:verdana;
+	color:#7E7E7E;
+	}
+
+.hide-tracks{
+ display: none;
+}
+
+.show-tracks{
+ display: inline;
+}
