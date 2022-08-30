@@ -72,6 +72,15 @@ function enable_scroll() {
     window.onmousewheel = document.onmousewheel = document.onkeydown = null;  
 }
 
+function clearOtherInfo() {
+	document.getElementById("field_label").style.display="none";
+	document.getElementById("field_catalog-number").style.display="none";
+	document.getElementById("field_release-name").style.display="none";
+	document.getElementById("field_release-main-artists").style.display="none";
+	document.getElementById("field_release-date").style.display="none";
+	document.getElementById("field_ean-upc-code").style.display="none";
+	document.getElementById("field_number-of-tracks-on-release").style.display="none";
+}
 
 function clearTrackInfo(){
 	document.getElementById("track-1-info").style.display="none";
@@ -584,6 +593,7 @@ function setTrackdetail(){
 	var numberoftracks 	= document.getElementById('field_number-of-tracks-on-release').value;
    
 	clearTrackInfo();
+	clearOtherInfo();
 
 	switch(numberoftracks) {
         case "none":
