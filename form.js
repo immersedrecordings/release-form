@@ -13957,10 +13957,11 @@ function submitMetadata(){
 		type:"post",
 		data:$("#myForm").serializeArray(),
 		success: function(){
-			alert("Form Data Submitted :)")
+			alert("Form Data Submitted :)");
+			clearTrackInfo();
 		},
 		error: function(){
-			alert("There was an error :(")
+			alert("There was an error :(");
 		}
 	});
 }
