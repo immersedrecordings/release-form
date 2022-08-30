@@ -13956,11 +13956,11 @@ function submitMetadata(){
 		type:"post",
 		data:$("#myForm").serializeArray(),
 		success: function(){
-			alert("Form Data Submitted :)");
+			alert("Immersed Distribution has received your submission.");
 			clearTrackInfo();
 		},
 		error: function(){
-			alert("There was an error :(");
+			alert("There was an error. Please check your data input.");
 		}
 	});
 }
